@@ -1,0 +1,11 @@
+# Jekyll! config
+
+# Site settings
+title: UASF Working Group
+
+# Build settings
+markdown: kramdown
+
+# Sass style
+sass:
+  style: compressed
