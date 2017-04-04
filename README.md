@@ -102,4 +102,3 @@ This will depend on what type of wallet you use. In the case of a wallet using a
 ---
 
 *Contribute to this document here [github.com/OPUASF/UASF](https://github.com/OPUASF/UASF)*
-
