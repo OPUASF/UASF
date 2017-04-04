@@ -1,7 +1,7 @@
  
  
  
-![](/img/uasf-header.svg)
+![](https://raw.githubusercontent.com/OPUASF/UASF/master/img/uasf-header.svg)
 
 # BIP148 & UASF FAQ
 
