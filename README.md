@@ -99,3 +99,8 @@ Both sides of a chain split will produce slower than normal blocks until the dif
 
 This will depend on what type of wallet you use. In the case of a wallet using a centralized service's nodes, make sure the nodes their service uses are upgraded. In the case of something like Electrum, make sure the Electrum server you are using is upgraded. Ultimately, any non-fully validating wallet will derive information about balances from a fully validating node. You must take whatever steps you have to in order to ensure your wallet is connected to an upgraded BIP148 nodes.
 
+---
+
+*Contribute to this document here https://github.com/OPUASF/UASF*
+
+
