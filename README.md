@@ -1,7 +1,7 @@
  
  
  
-![](img/uasf-header.svg)
+![](/img/uasf-header.svg)
 
 # BIP148 & UASF FAQ
 
