@@ -1,3 +1,5 @@
+![](img/uasf-header.svg)
+
 # UASF
 
 ## BIP148 FAQ
