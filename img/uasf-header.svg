@@ -3,7 +3,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="5288.383px" height="792px" viewBox="0 0 5288.383 792" enable-background="new 0 0 5288.383 792" xml:space="preserve">
-<path fill="#FFD12D" d="M5288.383,720c0,39.765-32.235,72-72,72H72c-39.765,0-72-32.235-72-72V72C0,32.235,32.235,0,72,0h5144.383
+<path fill="#FFCE1C" d="M5288.383,720c0,39.765-32.235,72-72,72H72c-39.765,0-72-32.235-72-72V72C0,32.235,32.235,0,72,0h5144.383
 	c39.765,0,72,32.235,72,72V720z"/>
-<text transform="matrix(1.274 0 0 1 1986.7186 566.222)" font-family="'PoplarStd'" font-size="455.7549">#UASF</text>
+<text transform="matrix(1 0 0 1 2106.2412 566.222)" font-family="'PoplarStd'" font-size="455.7549" letter-spacing="13">#UASF</text>
 </svg>
