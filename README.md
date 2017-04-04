@@ -59,6 +59,20 @@ Because BIP9 is time based, BIP148 needs to account for the possibility for some
 
 The best way to show support is to champion it through social media (Twitter, Facebook, etc...) and petition businesses and wallets to support it. Many users are also altering their node's user agent string to include BIP148.
 
+### How can I re-compile bitcoind with UASF BIP148?
+
+For 0.14.0: Download the patch https://github.com/bitcoin/bitcoin/compare/0.14...UASF:0.14.diff and apply to your Bitcoin Core 0.14.0 installation, recompile and run.
+
+    # Sample code listing for re-compiling with UASF-BIP148
+    cd /usr/src/bitcoin-0.14.0
+    wget https://github.com/bitcoin/bitcoin/compare/0.14...UASF:0.14.diff
+    patch -p 1 < 0.14...UASF\:0.14.diff
+    make
+    strip src/bitcoind src/bitcoin-cli src/bitcoin-tx
+    cp -a src/bitcoind src/bitcoin-cli src/bitcoin-tx /path/to/binaries
+
+A detailed explanation of the code changes applies can be found in this thread:
+https://www.reddit.com/r/Bitcoin/comments/62hipj/antifud_the_bip148_enforcing_client_a_walkthrough/
 
 ### Can BIP148 be cancelled?
 
