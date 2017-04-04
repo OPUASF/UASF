@@ -7,7 +7,7 @@
 
 ### What is a UASF?
 UASF stands for User Activated Soft Fork. It’s a mechanism where the activation time of a soft fork occurs on a specified date enforced by full nodes, a concept sometimes referred to as the economic majority. A UASF requires a lot of industry support and coordination, which is good practice for eventual hard forks which requires even more industry coordination.
-In the past, a UASF was successfully carried out to activate the P2SH soft fork (BIP16). The UASF concept was combined with SegWit activation in the BIP148 proposal which can be found here: [https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki).
+In the past, a UASF was successfully carried out to activate the P2SH soft fork (BIP16). The UASF concept was combined with SegWit activation in the BIP148 proposal which can be found here: [github.com/bitcoin/bips/blob/master/bip-0148.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki).
 
 ### What is a MASF?
 
@@ -18,7 +18,7 @@ MASF stands for Miner Activated Soft Fork. It’s a mechanism by which miners tr
 BIP148 is a UASF that is designed to cause the existing SegWit MASF deployment to cause activation in all existing SegWit capable node software (which currently is 80% of the network nodes).
 How does BIP148 Work?
 From August 1st, 2017, miners are required to signal readiness for SegWit by creating blocks with the version bit 1. This will cause all SegWit ready nodes, which make up over 80% of the network, to activate and begin enforcement.
-Link for reference: [http://luke.dashjr.org/programs/bitcoin/files/charts/software.html](http://luke.dashjr.org/programs/bitcoin/files/charts/software.html). Miners must also check blocks prior to their own and ensure that they also signal for SegWit, and only build on those blocks.
+Link for reference: [luke.dashjr.org/programs/bitcoin/files/charts/software.html](http://luke.dashjr.org/programs/bitcoin/files/charts/software.html). Miners must also check blocks prior to their own and ensure that they also signal for SegWit, and only build on those blocks.
 
 
 ![](img/bitcoin-nodes.png)
@@ -29,7 +29,7 @@ Link for reference: [http://luke.dashjr.org/programs/bitcoin/files/charts/softwa
 
 To be clear, BIP148 is a soft fork that requires miners to activate the existing SegWit deployment. This is not the standard for UASF because normally nodes would just begin enforcement on a given "flag day". However, almost 80% of the network has already upgraded to SegWit capable node software, in anticipation of miner triggered activation. A new "SegWit UASF" deployment would require all nodes to upgrade again which will take considerable time. For this reason, the shortened route to SegWit activation is to require blocks to signal for SegWit activation. In general, the block signalling mechanism is only supposed to be a coordination method that makes accelerated activation possible. In 2012, P2SH was activated by UASF with a simple flag day.
 
-BIP148 was created to avoid having to force most users to upgrade their software. A vast majority of the nodes currently deployed are aware of the BIP9 signalling for SegWit. BIP148 is designed to motivate miners to signal for SegWit so that it is activated in a way that even users who are not running BIP148 will get the benefits of the activation of SegWit. For more information on the benefits of SegWit, please visit: [https://segwit.org](https://segwit.org).
+BIP148 was created to avoid having to force most users to upgrade their software. A vast majority of the nodes currently deployed are aware of the BIP9 signalling for SegWit. BIP148 is designed to motivate miners to signal for SegWit so that it is activated in a way that even users who are not running BIP148 will get the benefits of the activation of SegWit. For more information on the benefits of SegWit, please visit: [segwit.org](https://segwit.org).
 
 ### What do users need to do to enforce BIP148?
 
@@ -101,5 +101,5 @@ This will depend on what type of wallet you use. In the case of a wallet using a
 
 ---
 
-*Contribute to this document here https://github.com/OPUASF/UASF*
+*Contribute to this document here [github.com/OPUASF/UASF](https://github.com/OPUASF/UASF)*
 
