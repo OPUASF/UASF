@@ -3,10 +3,7 @@
  
 ![](img/uasf-header.svg)
 
-
-# UASF
-
-## BIP148 FAQ
+# BIP148 & UASF FAQ
 
 ### What is a UASF?
 UASF stands for User Activated Soft Fork. It’s a mechanism where the activation time of a soft fork occurs on a specified date enforced by full nodes, a concept sometimes referred to as the economic majority. A UASF requires a lot of industry support and coordination, which is good practice for eventual hard forks which requires even more industry coordination.
