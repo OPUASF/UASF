@@ -9,3 +9,6 @@ markdown: kramdown
 # Sass style
 sass:
   style: compressed
+
+# Site theme
+theme: jekyll-theme-minimal
