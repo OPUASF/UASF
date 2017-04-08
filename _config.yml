@@ -5,6 +5,8 @@ title: UASF Working Group
 
 # Build settings
 markdown: kramdown
+kramdown:
+  auto_ids: true
 
 # Sass style
 sass:
