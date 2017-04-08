@@ -12,6 +12,7 @@ In the past, a UASF was successfully carried out to activate the P2SH soft fork 
 ### UASF Signaling
 
 ![](http://uasf.saltylemon.org/uasf_nodes_all.png)
+
 *[sourced from uasf.saltylemon.org](http://uasf.saltylemon.org/)*
 
 
