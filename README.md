@@ -113,6 +113,9 @@ Both sides of a chain split will produce slower than normal blocks until the dif
 
 This will depend on what type of wallet you use. In the case of a wallet using a centralized service's nodes, make sure the nodes their service uses are upgraded. In the case of something like Electrum, make sure the Electrum server you are using is upgraded. Ultimately, any non-fully validating wallet will derive information about balances from a fully validating node. You must take whatever steps you have to in order to ensure your wallet is connected to an upgraded BIP148 nodes.
 
+### Where do I download software that enforces BIP148?
+
+Successful User Activated Soft Forks require a strong consensus from the economy to be successful.  BIP148 also is subject to changes as it is reviewed, so some minor details may change before it is ready.  Until there is sufficient consensus, it is not advised to use any binaries that implement BIP148.  However, the BIP148 reference can be applied for testing and review purposes.  If you want to signal support, change your user agent comment to be "UASF-SegWit-BIP148", along with communicating with other Bitcoin users that you support BIP148.
 ---
 
 *Contribute to this document here [github.com/OPUASF/UASF](https://github.com/OPUASF/UASF)*
