@@ -62,10 +62,10 @@ The best way to show support is to champion it through social media (Twitter, Fa
 
 To signal #UASF on linux on your node before binaries are released:
 
-echo "uacomment=UASF-SegWit-BIP148" >> ~/.bitcoin/bitcoin.conf && bitcoin-cli stop && sleep 5 && bitcoind
+`echo "uacomment=UASF-SegWit-BIP148" >> ~/.bitcoin/bitcoin.conf && bitcoin-cli stop && sleep 5 && bitcoind`
 
 
-To manually set it, open ~/.bitcoin/bitcoin.conf and on a new line set "uacomment=UASF-SegWit-BIP148" without quotes, then restart your node.
+To manually set it, open `~/.bitcoin/bitcoin.conf` and on a new line set `uacomment=UASF-SegWit-BIP148` without quotes, then restart your node.
 
 ### Can BIP148 be cancelled?
 
