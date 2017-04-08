@@ -1,6 +1,6 @@
- 
- 
- 
+
+
+
 ![](img/uasf-header.png)
 
 # BIP148 & UASF FAQ
@@ -60,6 +60,13 @@ Because BIP9 is time based, BIP148 needs to account for the possibility for some
 The best way to show support is to champion it through social media (Twitter, Facebook, etc...) and petition businesses and wallets to support it. Many users are also altering their node's user agent string to include BIP148.
 
 
+To signal #UASF on linux on your node before binaries are released:
+
+echo "uacomment=UASF-SegWit-BIP148" >> ~/.bitcoin/bitcoin.conf && bitcoin-cli stop && sleep 5 && bitcoind
+
+
+To manually set it, open ~/.bitcoin/bitcoin.conf and on a new line set "uacomment=UASF-SegWit-BIP148" without quotes, then restart your node.
+
 ### Can BIP148 be cancelled?
 
 Yes. In the event that the economic majority does not support BIP148, users should remove software that enforces BIP148. A flag day activation for SegWit would be the next logical steps and require coordination of the community, most likely towards the end of 2018.
@@ -70,7 +77,7 @@ No. Users that decide to enforce the new rules will only follow blocks that conf
 
 ### Will a UASF cause a chain split?
 
-Soft forks rely on the economic incentives of the majority of miners and economic actors to reject invalid blocks based on the new ruleset. Since the new BIP148 rules are a stricter set than the old rules, any chain split means the chain with the old rules would be in danger of being wiped out. If the majority of miners enforce the new ruleset, all blocks produced that are invalid in the new ruleset will become orphaned. This economic incentive pushes miners to enforce the new rules. A UASF uses similar economic incentives. If the majority ofhashing power enforces the new rules, chain splits remain temporary as with a solely miner enforced soft fork.
+Soft forks rely on the economic incentives of the majority of miners and economic actors to reject invalid blocks based on the new ruleset. Since the new BIP148 rules are a stricter set than the old rules, any chain split means the chain with the old rules would be in danger of being wiped out. If the majority of miners enforce the new ruleset, all blocks produced that are invalid in the new ruleset will become orphaned. This economic incentive pushes miners to enforce the new rules. A UASF uses similar economic incentives. If the majority of hashing power enforces the new rules, chain splits remain temporary as with a solely miner enforced soft fork.
 
 If the majority of hashpower does not enforce the rules, a chain split would occur. If there is a greater demand for the blocks produced by the BIP148 miners, then profit-driven miners would eventually flock to this chain, leading to the orphaning of the pre-soft-fork chain. If the demand is less for the soft-fork chain, then both chains may co-exist indefinitely.
 
