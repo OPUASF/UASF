@@ -72,10 +72,8 @@ To signal #BIP148 on Linux on your node before binaries are released:
 `echo "uacomment=UASF-SegWit-BIP148" >> ~/.bitcoin/bitcoin.conf && bitcoin-cli stop && sleep 5 && bitcoind`
 
 To signal #BIP148 on Windows, you can edit the shortcut for Bitcoin as follows:
-[](img/uasf-header.png)
+![](img/windows148.png)
 
-
-To manually set it, open `~/.bitcoin/bitcoin.conf` and on a new line set `uacomment=UASF-SegWit-BIP148` without quotes, then restart your node.
 
 ### Can BIP148 be cancelled?
 
