@@ -118,6 +118,7 @@ This will depend on what type of wallet you use. In the case of a wallet using a
 ### Where do I download software that enforces BIP148?
 
 Successful User Activated Soft Forks require a strong consensus from the economy to be successful.  BIP148 also is subject to changes as it is reviewed, so some minor details may change before it is ready.  Until there is sufficient consensus, it is not advised to use any binaries that implement BIP148.  However, the BIP148 reference can be applied for testing and review purposes.  If you want to signal support, change your user agent comment to be "UASF-SegWit-BIP148", along with communicating with other Bitcoin users that you support BIP148.
+
 ---
 
 *Contribute to this document here [github.com/OPUASF/UASF](https://github.com/OPUASF/UASF)*
