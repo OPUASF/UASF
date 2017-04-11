@@ -13,5 +13,3 @@ sass:
   sass_dir: css
   style:    expanded
 
-safe: true
-lsi: false
