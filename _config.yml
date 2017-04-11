@@ -10,5 +10,8 @@ kramdown:
 
 # Sass style
 sass:
-  style: compressed
+  sass_dir: css
+  style:    expanded
 
+safe: true
+lsi: false
