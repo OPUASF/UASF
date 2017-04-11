@@ -1,5 +1,7 @@
-
-
+---
+layout: default
+title:  'Welcome'
+---
 
 ![](img/uasf-header.png)
 
