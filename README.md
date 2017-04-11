@@ -65,7 +65,10 @@ Satoshi Portal Electrum Server for UASF: 158.69.102.114 port 50002
 
 ### What do miners need to do to enforce BIP148?
 
-Miners should update their mining software to produce blocks with version bit 1 enabled prior to August 1st, 2017. Miners do not need to create SegWit blocks or make any other changes. After activation of SegWit, at a minimum, miners should also make sure they have a border node that filters out invalid blocks.
+Prior to August 1st, 2017, miners should either:
+
+1. Update their node software to a BIP148-enforcing version; or
+1. Run a BIP148 border node to filter out invalid blocks, and update their existing mining software to produce blocks with version 1 bit enabled, to vote for Segwit activation
 
 ### What are the various scenarios that could happen from BIP148?
 
