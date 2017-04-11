@@ -22,13 +22,7 @@ MASF stands for Miner Activated Soft Fork. It’s a mechanism by which miners tr
 
 BIP148 is a UASF that is designed to cause the existing SegWit MASF deployment to cause activation in all existing SegWit capable node software (which currently is 80% of the network nodes).
 How does BIP148 Work?
-From August 1st, 2017, miners are required to signal readiness for SegWit by creating blocks with the version bit 1. This will cause all SegWit ready nodes, which make up over 80% of the network, to activate and begin enforcement.
-Link for reference: [luke.dashjr.org/programs/bitcoin/files/charts/software.html](http://luke.dashjr.org/programs/bitcoin/files/charts/software.html). Miners must also check blocks prior to their own and ensure that they also signal for SegWit, and only build on those blocks.
-
-
-![](img/bitcoin-nodes.png)
-
-
+From August 1st, 2017, miners are required to signal readiness for SegWit by creating blocks with the version bit 1. This will cause all SegWit ready nodes, which make up over 80% of the network, to activate and begin enforcement. Miners must also check blocks prior to their own and ensure that they also signal for SegWit, and only build on those blocks.
 
 ### Why BIP148 and not a direct flag day UASF for Segwit?
 
