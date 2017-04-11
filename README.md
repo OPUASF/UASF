@@ -48,7 +48,7 @@ Company|Category|ANN.|
 [Microsoft](http://microsoft.com)| Decentralized Identity dpt.|[proof](https://twitter.com/csuwildcat/status/851832163792150528)
 
 
-*[Add your business here (must include public announcement link)](https://github.com/OPUASF/UASF/issues/new)*
+*[Add your business here by creating a pull request (must include public announcement link)](https://github.com/OPUASF/UASF/pulls)*
 
 ### Why BIP148 and not a direct flag day UASF for Segwit?
 
