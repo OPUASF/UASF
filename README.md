@@ -53,7 +53,9 @@ BIP148 was created to avoid having to force most users to upgrade their software
 
 ### What do users need to do to enforce BIP148?
 
-Users should use clients that enforce BIP148. Users that run full nodes would upgrade to one that enforces BIP148, or run their node behind an upgraded border node. Users of light clients (like mobile wallets) should check with each vendor to see their support for BIP148. We plan on documenting any public responses from wallets regarding BIP148 support.
+It is recommended that users do not update unless an economic majority commits to updating and users are aware of the risks and mitigations of a failed UASF deployment.
+
+Users aware of the risks and who want to commit should use clients that enforce BIP148. Users that run full nodes would upgrade to one that enforces BIP148, or run their node behind an upgraded border node. Users of light clients (like mobile wallets) should check with each vendor to see their support for BIP148. We plan on documenting any public responses from wallets regarding BIP148 support.
 Satoshi Portal Electrum Server for UASF: 158.69.102.114 port 50002
 
 ### What do miners need to do to enforce BIP148?
