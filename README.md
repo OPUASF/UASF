@@ -41,10 +41,12 @@ Company|Category|ANN.|
 [Samourai Wallet](https://samouraiwallet.com/) | Wallet| [proof](https://twitter.com/SamouraiWallet/status/851005717070917633)
 [JoinMarket](https://github.com/JoinMarket-Org/joinmarket) | Mixer | [proof](https://twitter.com/joinmarket/status/851177740900368385)
 [Freedom Node](https://freedomnode.com/) | ??? | [proof](https://freedomnode.com/bitcoin-core-support.txt)
+[Walltime](https://walltime.info/)|| [proof](https://pastebin.com/raw/FeNHqySX)
 [BitKong](https://bitkong.com/) | Casino | [proof](https://bitkong.com/segwit.txt)
 [Bitfury](http://bitfury.com/) | Miner | [proof](https://news.bitcoin.com/bitfury-mines-block-signaling-uasf-segwit/)
 [BitCoinReminder](https://bitcoinreminder.com/) | Tool | [proof](https://www.reddit.com/r/Bitcoin/comments/642n66/bitcoinremindercom_supports_bip148_and_a_fix/)
 [Microsoft](http://microsoft.com)| Decentralized Identity dpt.|[proof](https://twitter.com/csuwildcat/status/851832163792150528)
+
 
 *[Add your business here (must include public announcement link)](https://github.com/OPUASF/UASF/issues/new)*
 
