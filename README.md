@@ -28,7 +28,22 @@ Link for reference: [luke.dashjr.org/programs/bitcoin/files/charts/software.html
 
 ![](img/bitcoin-nodes.png)
 
+### Who already supports UASF?
 
+Company|Category|ANN.|
+:--- | :--- | :---:
+[Bitrefill](https://www.bitrefill.com) |Exchange| [proof](https://twitter.com/bitrefill/status/851818821946048512)
+[Blocknomics](http://Blocknomics.co) |Explorer|  [proof](https://twitter.com/blockonomics_co/status/851770427529670658)
+ [Bustabit](#) | Casino|[proof](https://www.reddit.com/r/Bitcoin/comments/63otrp/gregory_maxwell_major_asic_manufacturer_is/dfw02tg/)
+[Coinkite](http://coinkite.com) | Hardware/Software | [proof](https://twitter.com/coinkite/status/851822761794260992)
+[yogh.io](http://yogh.io) | Explorer| [proof](http://srv1.yogh.io/#json:getnetworkinfo)
+[Trezor](https://trezor.io/) | Hardware Wallet | [proof](https://twitter.com/slushcz/status/851502735736418304)
+[Samourai Wallet](https://samouraiwallet.com/) | Wallet| [proof](https://twitter.com/SamouraiWallet/status/851005717070917633)
+[JoinMarket](https://github.com/JoinMarket-Org/joinmarket) | Mixer | [proof](https://twitter.com/joinmarket/status/851177740900368385)
+[Freedom Node](https://freedomnode.com/) | ??? | [proof](https://freedomnode.com/bitcoin-core-support.txt)
+[BitKong](https://bitkong.com/) | Casino | [proof](https://bitkong.com/segwit.txt)
+[Bitfury](http://bitfury.com/) | Miner | [proof](https://news.bitcoin.com/bitfury-mines-block-signaling-uasf-segwit/)
+[BitCoinReminder](https://bitcoinreminder.com/) | Tool | [proof](https://www.reddit.com/r/Bitcoin/comments/642n66/bitcoinremindercom_supports_bip148_and_a_fix/)
 
 ### Why BIP148 and not a direct flag day UASF for Segwit?
 
