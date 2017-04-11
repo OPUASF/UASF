@@ -12,5 +12,3 @@ kramdown:
 sass:
   style: compressed
 
-# Theme
-theme: jekyll-theme-minimal
