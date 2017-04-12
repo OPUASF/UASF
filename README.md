@@ -38,6 +38,7 @@ Company|Category|ANN.|
 [BitKong](https://bitkong.com/) | Casino | [proof](https://bitkong.com/segwit.txt)
 [BitPay](https://bitpay.com) | Payment processor | [proof](https://cointelegraph.com/news/bitpay-ceo-supports-user-activated-soft-fork-hints-at-off-chain-expansion)
 [Bitrefill](https://www.bitrefill.com) |Exchange| [proof](https://twitter.com/bitrefill/status/851818821946048512)
+[Bitvest](https://bitvest.io/) | | [proof](https://bitvest.io/segwit)
 [Blockonomics](https://www.blockonomics.co) |Explorer|  [proof](https://twitter.com/blockonomics_co/status/851770427529670658)
 [Bustabit](#) | Casino|[proof](https://www.reddit.com/r/Bitcoin/comments/63otrp/gregory_maxwell_major_asic_manufacturer_is/dfw02tg/)
 [CoinGate](https://coingate.com) | Payment Processor | [proof](https://blog.coingate.com/2017/04/coingate-supports-segwit-and-uasf/)
