@@ -48,6 +48,8 @@ Company|Category|ANN.|
 [Microsoft](http://microsoft.com)| Decentralized Identity dpt.|[proof](https://twitter.com/csuwildcat/status/851832163792150528)
 [Abra](https://www.goabra.com) | Worldwide payments | [proof](https://twitter.com/billbarhydt/status/851855874855391232)
 [Prasos](https://prasos.fi) | Bitcoin broker | [proof](https://twitter.com/prasosltd/status/852104011767566336)
+[Vaultoro](https://www.vaultoro.com) | Bitcoin & gold exchange | [proof](https://twitter.com/Vaultoro/status/851370469018284034)
+[BitGo](https://www.bitgo.com) | Wallet provider for businesses | [proof](https://twitter.com/BitGo/status/850396114872291329)
 
 *[Add your business here by creating a pull request (must include public announcement link)](https://github.com/OPUASF/UASF/pulls)*
 
