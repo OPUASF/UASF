@@ -50,6 +50,7 @@ Company|Category|ANN.|
 [Prasos](https://prasos.fi) | Bitcoin broker | [proof](https://twitter.com/prasosltd/status/852104011767566336)
 [Vaultoro](https://www.vaultoro.com) | Bitcoin & gold exchange | [proof](https://twitter.com/Vaultoro/status/851370469018284034)
 [BitGo](https://www.bitgo.com) | Wallet provider for businesses | [proof](https://twitter.com/BitGo/status/850396114872291329)
+[BitPay](https://bitpay.com) | Payment processor | [proof](https://cointelegraph.com/news/bitpay-ceo-supports-user-activated-soft-fork-hints-at-off-chain-expansion)
 
 *[Add your business here by creating a pull request (must include public announcement link)](https://github.com/OPUASF/UASF/pulls)*
 
