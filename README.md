@@ -50,7 +50,8 @@ Company|Category|ANN.|
 [CoinGate](https://coingate.com) | Payment Processor | [proof](https://blog.coingate.com/2017/04/coingate-supports-segwit-and-uasf/)
 [Stampery Inc.](https://stampery.com) || [proof](https://twitter.com/StamperyCo/status/852097157951873025)
 [Coinomi](https://coinomi.com/) | Multi-currency Wallet | [proof](https://twitter.com/CoinomiWallet/status/852130791362637825)
-
+[Prasos](https://prasos.fi) | Bitcoin broker | [proof](https://twitter.com/prasosltd/status/852104011767566336)
+[BitPay](https://bitpay.com) | Payment processor | [proof](https://cointelegraph.com/news/bitpay-ceo-supports-user-activated-soft-fork-hints-at-off-chain-expansion)
 
 *[Add your business here by creating a pull request (must include public announcement link)](https://github.com/OPUASF/UASF/pulls)*
 
