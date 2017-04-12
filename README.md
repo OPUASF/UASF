@@ -54,6 +54,7 @@ Company|Category|ANN.|
 [BitPay](https://bitpay.com) | Payment processor | [proof](https://cointelegraph.com/news/bitpay-ceo-supports-user-activated-soft-fork-hints-at-off-chain-expansion)
 [Vaultoro](https://www.vaultoro.com) | Bitcoin & gold exchange | [proof](https://twitter.com/Vaultoro/status/851370469018284034)
 [Satoshi Portal](http://satoshiportal.com) | Financial services | [proof](https://twitter.com/francispouliot_/status/850474196635439105)
+[Electrum](https://electrum.org) | Wallet | [proof](https://twitter.com/ElectrumWallet/status/852174246205956096)
 
 *[Add your business here by creating a pull request (must include public announcement link)](https://github.com/OPUASF/UASF/pulls)*
 
