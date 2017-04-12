@@ -33,7 +33,7 @@ Link for reference: [luke.dashjr.org/programs/bitcoin/files/charts/software.html
 Company|Category|ANN.|
 :--- | :--- | :---:
 [Bitrefill](https://www.bitrefill.com) |Exchange| [proof](https://twitter.com/bitrefill/status/851818821946048512)
-[Blocknomics](http://Blocknomics.co) |Explorer|  [proof](https://twitter.com/blockonomics_co/status/851770427529670658)
+[Blockonomics](https://www.blockonomics.co) |Explorer|  [proof](https://twitter.com/blockonomics_co/status/851770427529670658)
  [Bustabit](#) | Casino|[proof](https://www.reddit.com/r/Bitcoin/comments/63otrp/gregory_maxwell_major_asic_manufacturer_is/dfw02tg/)
 [Coinkite](http://coinkite.com) | Hardware/Software | [proof](https://twitter.com/coinkite/status/851822761794260992)
 [yogh.io](http://yogh.io) | Explorer| [proof](http://srv1.yogh.io/#json:getnetworkinfo)
