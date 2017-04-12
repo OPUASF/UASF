@@ -4,7 +4,7 @@
 # BIP148 & UASF FAQ
 
 ### What is a UASF?
-UASF stands for User Activated Soft Fork. It’s a mechanism where the activation time of a soft fork occurs on a specified date enforced by full nodes, a concept sometimes referred to as the economic majority. A UASF requires a lot of industry support and coordination, which is good practice for eventual hard forks which requires even more industry coordination.
+UASF stands for User Activated Soft Fork. It’s a mechanism where the activation time of a soft fork occurs on a specified date enforced by full nodes, a concept sometimes referred to as the [economic majority](#what-do-you-mean-by-economic-majority). A UASF requires a lot of industry support and coordination, which is good practice for eventual hard forks which requires even more industry coordination.
 In the past, a UASF was successfully carried out to activate the P2SH soft fork (BIP16). The UASF concept was combined with SegWit activation in the BIP148 proposal which can be found here: [github.com/bitcoin/bips/blob/master/bip-0148.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki).
 
 ### UASF Signaling
@@ -36,7 +36,7 @@ BIP148 was created to avoid having to force most users to upgrade their software
 
 ### What do users need to do to enforce BIP148?
 
-It is recommended that users do not update unless an economic majority commits to updating and users are aware of the risks and mitigations of a failed UASF deployment.
+It is recommended that users do not update unless an [economic majority](#what-do-you-mean-by-economic-majority) commits to updating and users are aware of the risks and mitigations of a failed UASF deployment.
 
 Users aware of the risks and who want to commit should use clients that enforce BIP148. Users that run full nodes would upgrade to one that enforces BIP148, or run their node behind an upgraded border node. Users of light clients (like mobile wallets) should check with each vendor to see their support for BIP148. We plan on documenting any public responses from wallets regarding BIP148 support.
 Satoshi Portal Electrum Server for UASF: 158.69.102.114 port 50002
@@ -50,7 +50,7 @@ Prior to August 1st, 2017, miners should either:
 
 ### What are the various scenarios that could happen from BIP148?
 
-BIP148 requires support from the economic majority, particularly exchanges and wallets. If this does not occur, node software supporting BIP148 should not be run after August 1st as it will cause a chain split leading to the abandonment of BIP148.
+BIP148 requires support from the [economic majority](#what-do-you-mean-by-economic-majority), particularly exchanges and wallets. If this does not occur, node software supporting BIP148 should not be run after August 1st as it will cause a chain split leading to the abandonment of BIP148.
 There are strong economic incentives in the Bitcoin system for nodes to cooperate and remain in consensus to prevent chain splits. If the economic majority is signalling as of August 1st, miners have many incentives to follow along. Not following along would make it difficult to sell coins mined after August 1st as the blocks would not be accepted by the economic majority. Essentially, miners would be producing an altcoin not recognized by users and exchanges, making them less useful and in lower demand.
 
 Some miners could opt to ignore the BIP148 rule and attempt to split the chain, but this would require a majority of miners who would be out of consensus from the rest of the economic majority.
@@ -61,7 +61,7 @@ If a minority of the hash power (under 51%) follows BIP148, nodes running BIP148
 
 ### Why was the date of August 1, 2017 chosen?
 
-Because BIP9 is time based, BIP148 needs to account for the possibility for some of the hash power to exit (eg. to mine another fork) which would make block intervals longer. The August 1st date allows for the economic majority to successfully activate SegWit. Theoretically, if the hashpower drops by up to 85%, it might take up to 13 weeks to complete an activation period. In this scenario, SegWit will still activate for all BIP148 compliant nodes.
+Because BIP9 is time based, BIP148 needs to account for the possibility for some of the hash power to exit (eg. to mine another fork) which would make block intervals longer. The August 1st date allows for the [economic majority](#what-do-you-mean-by-economic-majority) to successfully activate SegWit. Theoretically, if the hashpower drops by up to 85%, it might take up to 13 weeks to complete an activation period. In this scenario, SegWit will still activate for all BIP148 compliant nodes.
 
 ### How can we show support for BIP148?
 
@@ -80,7 +80,7 @@ _N.B. This will not enforce UASF on your node; it will only signal that you supp
 
 ### Can BIP148 be cancelled?
 
-Yes. In the event that the economic majority does not support BIP148, users should remove software that enforces BIP148. A flag day activation for SegWit would be the next logical steps and require coordination of the community, most likely towards the end of 2018.
+Yes. In the event that the [economic majority](#what-do-you-mean-by-economic-majority) does not support BIP148, users should remove software that enforces BIP148. A flag day activation for SegWit would be the next logical steps and require coordination of the community, most likely towards the end of 2018.
 
 ### Does node count determine activation?
 
@@ -131,7 +131,7 @@ An "economic majority of users" is a majority of users that is weighted by wealt
 
 ### How can we measure whether BIP148 has economic majority support?
 
-There are multiple metrics to measure whether a proposal has the support of an economic majority. Some metrics are better than others.
+There are multiple metrics to measure whether a proposal has the support of an [economic majority](#what-do-you-mean-by-economic-majority). Some metrics are better than others.
 
 * [Counting nodes](#uasf-signaling) is a low-quality (but not irrelevant) metric. Mostly you can conclude that if there are very few nodes supporting a proposal, then there is a lack of support. Few nodes opposing a proposal would indicate a lack of opposition. Many nodes supporting or opposing doesn't necessarily mean much either way though.
 
