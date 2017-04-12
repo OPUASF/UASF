@@ -34,7 +34,7 @@ Company|Category|ANN.|
 :--- | :--- | :---:
 [Bitrefill](https://www.bitrefill.com) |Exchange| [proof](https://twitter.com/bitrefill/status/851818821946048512)
 [Blockonomics](https://www.blockonomics.co) |Explorer|  [proof](https://twitter.com/blockonomics_co/status/851770427529670658)
- [Bustabit](#) | Casino|[proof](https://www.reddit.com/r/Bitcoin/comments/63otrp/gregory_maxwell_major_asic_manufacturer_is/dfw02tg/)
+[Bustabit](#) | Casino|[proof](https://www.reddit.com/r/Bitcoin/comments/63otrp/gregory_maxwell_major_asic_manufacturer_is/dfw02tg/)
 [Coinkite](http://coinkite.com) | Hardware/Software | [proof](https://twitter.com/coinkite/status/851822761794260992)
 [yogh.io](http://yogh.io) | Explorer| [proof](http://srv1.yogh.io/#json:getnetworkinfo)
 [Trezor](https://trezor.io/) | Hardware Wallet | [proof](https://twitter.com/slushcz/status/851502735736418304)
@@ -48,6 +48,7 @@ Company|Category|ANN.|
 [Microsoft](http://microsoft.com)| Decentralized Identity dpt.|[proof](https://twitter.com/csuwildcat/status/851832163792150528)
 [Abra](https://www.goabra.com) | Worldwide payments | [proof](https://twitter.com/billbarhydt/status/851855874855391232)
 [Stampery Inc.](https://stampery.com) || [proof](https://twitter.com/StamperyCo/status/852097157951873025)
+[Coinomi](https://coinomi.com/) | Multi-currency Wallet | [proof](https://twitter.com/CoinomiWallet/status/852130791362637825)
 
 *[Add your business here by creating a pull request (must include public announcement link)](https://github.com/OPUASF/UASF/pulls)*
 
