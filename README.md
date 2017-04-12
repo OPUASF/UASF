@@ -135,7 +135,7 @@ There are multiple metrics to measure whether a proposal has the support of an [
 
 * [Counting nodes](#uasf-signaling) is a low-quality (but not irrelevant) metric. Mostly you can conclude that if there are very few nodes supporting a proposal, then there is a lack of support. Few nodes opposing a proposal would indicate a lack of opposition. Many nodes supporting or opposing doesn't necessarily mean much either way though.
 
-* [Statements from Bitcoin businesses](#who-already-supports-uasf) are a better, but still somewhat fuzzy metric. You can weigh statements by the size of the businesses making them. You can also assume a certain level of agreement from their customers.
+* Statements from Bitcoin businesses are a better, but still somewhat fuzzy metric. You can weigh statements by the size of the businesses making them. You can also assume a certain level of agreement from their customers.
 
 * Futures markets, such as the BCC/BCU tokens on Bitfinex, are probably the best way to measure support. The market would pay out in whichever coin type you had bet on, once the proposal goes into effect. This allows anyone who would want to buy or sell a particular coin after a split, to instead do so before the split occurs, thus establishing a price for each coin. In the case of BIP148, having a price above that of the legacy coin would mean that BIP148 will succeed.
 
