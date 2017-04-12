@@ -47,6 +47,7 @@ Company|Category|ANN.|
 [BitCoinReminder](https://bitcoinreminder.com/) | Tool | [proof](https://www.reddit.com/r/Bitcoin/comments/642n66/bitcoinremindercom_supports_bip148_and_a_fix/)
 [Microsoft](http://microsoft.com)| Decentralized Identity dpt.|[proof](https://twitter.com/csuwildcat/status/851832163792150528)
 [Abra](https://www.goabra.com) | Worldwide payments | [proof](https://twitter.com/billbarhydt/status/851855874855391232)
+[Stampery Inc.](https://stampery.com) || [proof](https://twitter.com/StamperyCo/status/852097157951873025)
 
 *[Add your business here by creating a pull request (must include public announcement link)](https://github.com/OPUASF/UASF/pulls)*
 
