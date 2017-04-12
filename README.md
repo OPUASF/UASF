@@ -47,6 +47,13 @@ Company|Category|ANN.|
 [BitCoinReminder](https://bitcoinreminder.com/) | Tool | [proof](https://www.reddit.com/r/Bitcoin/comments/642n66/bitcoinremindercom_supports_bip148_and_a_fix/)
 [Microsoft](http://microsoft.com)| Decentralized Identity dpt.|[proof](https://twitter.com/csuwildcat/status/851832163792150528)
 [Abra](https://www.goabra.com) | Worldwide payments | [proof](https://twitter.com/billbarhydt/status/851855874855391232)
+[Prasos](https://prasos.fi) | Bitcoin broker | [proof](https://twitter.com/prasosltd/status/852104011767566336)
+[Vaultoro](https://www.vaultoro.com) | Bitcoin & gold exchange | [proof](https://twitter.com/Vaultoro/status/851370469018284034)
+[BitGo](https://www.bitgo.com) | Wallet provider for businesses | [proof](https://twitter.com/BitGo/status/850396114872291329)
+[BitPay](https://bitpay.com) | Payment processor | [proof](https://cointelegraph.com/news/bitpay-ceo-supports-user-activated-soft-fork-hints-at-off-chain-expansion)
+[BTCC](https://www.btcc.com) | Exchange & miner | [proof](https://twitter.com/Excellion/status/850359974618316804)
+[Coinomi](https://coinomi.com) | Multi-currency wallet | [proof](https://twitter.com/CoinomiWallet/status/852130791362637825)
+[Satoshi Portal](http://satoshiportal.com) | Financial services | [proof](https://twitter.com/francispouliot_/status/850474196635439105)
 
 *[Add your business here by creating a pull request (must include public announcement link)](https://github.com/OPUASF/UASF/pulls)*
 
