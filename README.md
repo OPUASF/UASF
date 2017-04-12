@@ -52,6 +52,7 @@ Company|Category|ANN.|
 [BitGo](https://www.bitgo.com) | Wallet provider for businesses | [proof](https://twitter.com/BitGo/status/850396114872291329)
 [BitPay](https://bitpay.com) | Payment processor | [proof](https://cointelegraph.com/news/bitpay-ceo-supports-user-activated-soft-fork-hints-at-off-chain-expansion)
 [BTCC](https://www.btcc.com) | Exchange & miner | [proof](https://twitter.com/Excellion/status/850359974618316804)
+[Coinomi](https://coinomi.com) | Multi-currency wallet | [proof](https://twitter.com/CoinomiWallet/status/852130791362637825)
 
 *[Add your business here by creating a pull request (must include public announcement link)](https://github.com/OPUASF/UASF/pulls)*
 
