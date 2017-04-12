@@ -52,6 +52,8 @@ Company|Category|ANN.|
 [Coinomi](https://coinomi.com/) | Multi-currency Wallet | [proof](https://twitter.com/CoinomiWallet/status/852130791362637825)
 [Prasos](https://prasos.fi) | Bitcoin broker | [proof](https://twitter.com/prasosltd/status/852104011767566336)
 [BitPay](https://bitpay.com) | Payment processor | [proof](https://cointelegraph.com/news/bitpay-ceo-supports-user-activated-soft-fork-hints-at-off-chain-expansion)
+[Vaultoro](https://www.vaultoro.com) | Bitcoin & gold exchange | [proof](https://twitter.com/Vaultoro/status/851370469018284034)
+
 
 *[Add your business here by creating a pull request (must include public announcement link)](https://github.com/OPUASF/UASF/pulls)*
 
