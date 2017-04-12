@@ -28,36 +28,6 @@ Link for reference: [luke.dashjr.org/programs/bitcoin/files/charts/software.html
 
 ![](img/bitcoin-nodes.png)
 
-### Who already supports UASF?
-
-Company|Category|ANN.|
-:--- | :--- | :---:
-[Abra](https://www.goabra.com) | Worldwide payments | [proof](https://twitter.com/billbarhydt/status/851855874855391232)
-[BitCoinReminder](https://bitcoinreminder.com/) | Tool | [proof](https://www.reddit.com/r/Bitcoin/comments/642n66/bitcoinremindercom_supports_bip148_and_a_fix/)
-[Bitfury](http://bitfury.com/) | Miner | [proof](https://news.bitcoin.com/bitfury-mines-block-signaling-uasf-segwit/)
-[BitKong](https://bitkong.com/) | Casino | [proof](https://bitkong.com/segwit.txt)
-[BitPay](https://bitpay.com) | Payment processor | [proof](https://cointelegraph.com/news/bitpay-ceo-supports-user-activated-soft-fork-hints-at-off-chain-expansion)
-[Bitrefill](https://www.bitrefill.com) |Exchange| [proof](https://twitter.com/bitrefill/status/851818821946048512)
-[Bitvest](https://bitvest.io/) | | [proof](https://bitvest.io/segwit)
-[Blockonomics](https://www.blockonomics.co) |Explorer|  [proof](https://twitter.com/blockonomics_co/status/851770427529670658)
-[Bustabit](#) | Casino|[proof](https://www.reddit.com/r/Bitcoin/comments/63otrp/gregory_maxwell_major_asic_manufacturer_is/dfw02tg/)
-[CoinGate](https://coingate.com) | Payment Processor | [proof](https://blog.coingate.com/2017/04/coingate-supports-segwit-and-uasf/)
-[Coinkite](http://coinkite.com) | Hardware/Software | [proof](https://twitter.com/coinkite/status/851822761794260992)
-[Coinomi](https://coinomi.com/) | Multi-currency Wallet | [proof](https://twitter.com/CoinomiWallet/status/852130791362637825)
-[Freedom Node](https://freedomnode.com/) | ??? | [proof](https://freedomnode.com/bitcoin-core-support.txt)
-[JoinMarket](https://github.com/JoinMarket-Org/joinmarket) | Mixer | [proof](https://twitter.com/joinmarket/status/851177740900368385)
-[Microsoft](http://microsoft.com)| Decentralized Identity dpt.|[proof](https://twitter.com/csuwildcat/status/851832163792150528)
-[Prasos](https://prasos.fi) | Bitcoin broker | [proof](https://twitter.com/prasosltd/status/852104011767566336)
-[Samourai Wallet](https://samouraiwallet.com/) | Wallet| [proof](https://twitter.com/SamouraiWallet/status/851005717070917633)
-[Satoshi Portal](http://satoshiportal.com) | Financial services | [proof](https://twitter.com/francispouliot_/status/850474196635439105)
-[Stampery Inc.](https://stampery.com) || [proof](https://twitter.com/StamperyCo/status/852097157951873025)
-[Trezor](https://trezor.io/) | Hardware Wallet | [proof](https://twitter.com/slushcz/status/851502735736418304)
-[Vaultoro](https://www.vaultoro.com) | Bitcoin & gold exchange | [proof](https://twitter.com/Vaultoro/status/851370469018284034)
-[Walltime](https://walltime.info/)|| [proof](https://pastebin.com/raw/FeNHqySX)
-[yogh.io](http://yogh.io) | Explorer| [proof](http://srv1.yogh.io/#json:getnetworkinfo)
-
-*[Add your business here by creating a pull request (must include public announcement link)](https://github.com/OPUASF/UASF/pulls)*
-
 ### Why BIP148 and not a direct flag day UASF for Segwit?
 
 To be clear, BIP148 is a soft fork that requires miners to activate the existing SegWit deployment. This is not the standard for UASF because normally nodes would just begin enforcement on a given "flag day". However, almost 80% of the network has already upgraded to SegWit capable node software, in anticipation of miner triggered activation. A new "SegWit UASF" deployment would require all nodes to upgrade again which will take considerable time. For this reason, the shortened route to SegWit activation is to require blocks to signal for SegWit activation. In general, the block signalling mechanism is only supposed to be a coordination method that makes accelerated activation possible. In 2012, P2SH was activated by UASF with a simple flag day.
