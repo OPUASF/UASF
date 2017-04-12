@@ -53,6 +53,7 @@ Company|Category|ANN.|
 [BitPay](https://bitpay.com) | Payment processor | [proof](https://cointelegraph.com/news/bitpay-ceo-supports-user-activated-soft-fork-hints-at-off-chain-expansion)
 [BTCC](https://www.btcc.com) | Exchange & miner | [proof](https://twitter.com/Excellion/status/850359974618316804)
 [Coinomi](https://coinomi.com) | Multi-currency wallet | [proof](https://twitter.com/CoinomiWallet/status/852130791362637825)
+[Satoshi Portal](http://satoshiportal.com) | Financial services | [proof](https://twitter.com/francispouliot_/status/850474196635439105)
 
 *[Add your business here by creating a pull request (must include public announcement link)](https://github.com/OPUASF/UASF/pulls)*
 
