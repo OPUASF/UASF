@@ -121,6 +121,24 @@ This will depend on what type of wallet you use. In the case of a wallet using a
 
 Successful User Activated Soft Forks require a strong consensus from the economy to be successful.  BIP148 also is subject to changes as it is reviewed, so some minor details may change before it is ready.  Until there is sufficient consensus, it is not advised to use any binaries that implement BIP148.  However, the BIP148 reference can be applied for testing and review purposes.  If you want to signal support, change your user agent comment to be "UASF-SegWit-BIP148", along with communicating with other Bitcoin users that you support BIP148.
 
+### What do you mean by "economic majority"?
+
+An "economic majority of users" is a majority of users that is weighted by wealth or economic activity, as opposed to a numeric majority that counts everyone equally. BIP148's success is dependent on economic majority support. This majority would consist of:
+
+* Bitcoin investors, or anyone who deliberately holds bitcoins instead of immediately selling them for fiat. In the event of a chain split, an investor will own coins on both sides of the split. They can sell the coins on the chain that they do not support in order to buy more coins on the chain that they do support. Doing this drives up the price on their favored chain, while driving the price on the other chain down. The more bitcoins an investor owns, the greater their contribution to the economic majority.
+
+* Bitcoin merchants, or anyone willing to accept bitcoins in exchange for goods, services, or other currencies. In the event of a chain split, a merchant can choose to accept as payment only coins from the chain that they support. By making goods available, the merchant increases the value of their favored chain. The greater the aggregate value of goods sold by the merchant, the greater their contribution to the economic majority.
+
+### How can we measure whether BIP148 has economic majority support?
+
+There are multiple metrics to measure whether a proposal has the support of an economic majority. Some metrics are better than others.
+
+* [Counting nodes](#uasf-signaling) is a low-quality (but not irrelevant) metric. Mostly you can conclude that if there are very few nodes supporting a proposal, then there is a lack of support. Few nodes opposing a proposal would indicate a lack of opposition. Many nodes supporting or opposing doesn't necessarily mean much either way though.
+
+* [Statements from Bitcoin businesses](#who-already-supports-uasf) are a better, but still somewhat fuzzy metric. You can weigh statements by the size of the businesses making them. You can also assume a certain level of agreement from their customers.
+
+* Futures markets, such as the BCC/BCU tokens on Bitfinex, are probably the best way to measure support. The market would pay out in whichever coin type you had bet on, once the proposal goes into effect. This allows anyone who would want to buy or sell a particular coin after a split, to instead do so before the split occurs, thus establishing a price for each coin. In the case of BIP148, having a price above that of the legacy coin would mean that BIP148 will succeed.
+
 ---
 
 *Contribute to this document here [github.com/OPUASF/UASF](https://github.com/OPUASF/UASF)*
