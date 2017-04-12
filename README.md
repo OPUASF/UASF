@@ -53,7 +53,7 @@ Company|Category|ANN.|
 [Prasos](https://prasos.fi) | Bitcoin broker | [proof](https://twitter.com/prasosltd/status/852104011767566336)
 [BitPay](https://bitpay.com) | Payment processor | [proof](https://cointelegraph.com/news/bitpay-ceo-supports-user-activated-soft-fork-hints-at-off-chain-expansion)
 [Vaultoro](https://www.vaultoro.com) | Bitcoin & gold exchange | [proof](https://twitter.com/Vaultoro/status/851370469018284034)
-
+[Satoshi Portal](http://satoshiportal.com) | Financial services | [proof](https://twitter.com/francispouliot_/status/850474196635439105)
 
 *[Add your business here by creating a pull request (must include public announcement link)](https://github.com/OPUASF/UASF/pulls)*
 
