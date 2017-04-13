@@ -4,7 +4,7 @@
 # BIP148 & UASF FAQ
 
 ### What is a UASF?
-UASF stands for User Activated Soft Fork. It’s a mechanism where the activation time of a soft fork occurs on a specified date enforced by full nodes, a concept sometimes referred to as the economic majority. A UASF requires a lot of industry support and coordination, which is good practice for eventual hard forks which requires even more industry coordination.
+UASF stands for User Activated Soft Fork. It’s a mechanism where the activation time of a soft fork occurs on a specified date enforced by full nodes, a concept sometimes referred to as the [economic majority](#what-do-you-mean-by-economic-majority). A UASF requires a lot of industry [support](#how-can-we-measure-whether-bip148-has-economic-majority-support) and coordination, which is good practice for eventual hard forks which requires even more industry coordination.
 In the past, a UASF was successfully carried out to activate the P2SH soft fork (BIP16). The UASF concept was combined with SegWit activation in the BIP148 proposal which can be found here: [github.com/bitcoin/bips/blob/master/bip-0148.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki).
 
 ### UASF Signaling
@@ -66,9 +66,9 @@ BIP148 was created to avoid having to force most users to upgrade their software
 
 ### What do users need to do to enforce BIP148?
 
-It is recommended that users do not update unless an economic majority commits to updating and users are aware of the risks and mitigations of a failed UASF deployment.
+It is recommended that users do not update unless an [economic majority](#what-do-you-mean-by-economic-majority) commits to updating and users are aware of the risks and mitigations of a failed UASF deployment.
 
-Users aware of the risks and who want to commit should use clients that enforce BIP148. Users that run full nodes would upgrade to one that enforces BIP148, or run their node behind an upgraded border node. Users of light clients (like mobile wallets) should check with each vendor to see their support for BIP148. We plan on documenting any public responses from wallets regarding BIP148 support.
+Users aware of the risks and who want to commit should use clients that enforce BIP148. Users that run full nodes would upgrade to one that enforces BIP148, or run their node behind an upgraded border node. Users of light clients (like mobile wallets) should check with each vendor to see their [support](#how-can-we-measure-whether-bip148-has-economic-majority-support) for BIP148. We plan on documenting any public responses from wallets regarding BIP148 support.
 Satoshi Portal Electrum Server for UASF: 158.69.102.114 port 50002
 
 ### What do miners need to do to enforce BIP148?
@@ -80,7 +80,7 @@ Prior to August 1st, 2017, miners should either:
 
 ### What are the various scenarios that could happen from BIP148?
 
-BIP148 requires support from the economic majority, particularly exchanges and wallets. If this does not occur, node software supporting BIP148 should not be run after August 1st as it will cause a chain split leading to the abandonment of BIP148.
+BIP148 requires [support](#how-can-we-measure-whether-bip148-has-economic-majority-support) from the [economic majority](#what-do-you-mean-by-economic-majority), particularly exchanges and wallets. If this does not occur, node software supporting BIP148 should not be run after August 1st as it will cause a chain split leading to the abandonment of BIP148.
 There are strong economic incentives in the Bitcoin system for nodes to cooperate and remain in consensus to prevent chain splits. If the economic majority is signalling as of August 1st, miners have many incentives to follow along. Not following along would make it difficult to sell coins mined after August 1st as the blocks would not be accepted by the economic majority. Essentially, miners would be producing an altcoin not recognized by users and exchanges, making them less useful and in lower demand.
 
 Some miners could opt to ignore the BIP148 rule and attempt to split the chain, but this would require a majority of miners who would be out of consensus from the rest of the economic majority.
@@ -91,11 +91,11 @@ If a minority of the hash power (under 51%) follows BIP148, nodes running BIP148
 
 ### Why was the date of August 1, 2017 chosen?
 
-Because BIP9 is time based, BIP148 needs to account for the possibility for some of the hash power to exit (eg. to mine another fork) which would make block intervals longer. The August 1st date allows for the economic majority to successfully activate SegWit. Theoretically, if the hashpower drops by up to 85%, it might take up to 13 weeks to complete an activation period. In this scenario, SegWit will still activate for all BIP148 compliant nodes.
+Because BIP9 is time based, BIP148 needs to account for the possibility for some of the hash power to exit (eg. to mine another fork) which would make block intervals longer. The August 1st date allows for the [economic majority](#what-do-you-mean-by-economic-majority) to successfully activate SegWit. Theoretically, if the hashpower drops by up to 85%, it might take up to 13 weeks to complete an activation period. In this scenario, SegWit will still activate for all BIP148 compliant nodes.
 
 ### How can we show support for BIP148?
 
-The best way to show support is to champion it through social media (Twitter, Facebook, etc...) and petition businesses and wallets to support it. Many users are also altering their node's user agent string to include BIP148.
+The best way to show [support](#how-can-we-measure-whether-bip148-has-economic-majority-support) is to champion it through social media (Twitter, Facebook, etc...) and petition businesses and wallets to support it. Many users are also altering their node's user agent string to include BIP148.
 
 
 To signal #BIP148 on Linux on your node before binaries are released:
@@ -110,7 +110,7 @@ _N.B. This will not enforce UASF on your node; it will only signal that you supp
 
 ### Can BIP148 be cancelled?
 
-Yes. In the event that the economic majority does not support BIP148, users should remove software that enforces BIP148. A flag day activation for SegWit would be the next logical steps and require coordination of the community, most likely towards the end of 2018.
+Yes. In the event that the [economic majority](#what-do-you-mean-by-economic-majority) does not [support](#how-can-we-measure-whether-bip148-has-economic-majority-support) BIP148, users should remove software that enforces BIP148. A flag day activation for SegWit would be the next logical steps and require coordination of the community, most likely towards the end of 2018.
 
 ### Does node count determine activation?
 
@@ -149,7 +149,25 @@ This will depend on what type of wallet you use. In the case of a wallet using a
 
 ### Where do I download software that enforces BIP148?
 
-Successful User Activated Soft Forks require a strong consensus from the economy to be successful.  BIP148 also is subject to changes as it is reviewed, so some minor details may change before it is ready.  Until there is sufficient consensus, it is not advised to use any binaries that implement BIP148.  However, the BIP148 reference can be applied for testing and review purposes.  If you want to signal support, change your user agent comment to be "UASF-SegWit-BIP148", along with communicating with other Bitcoin users that you support BIP148.
+Successful User Activated Soft Forks require a strong consensus from the economy to be successful.  BIP148 also is subject to changes as it is reviewed, so some minor details may change before it is ready.  Until there is sufficient consensus, it is not advised to use any binaries that implement BIP148.  However, the BIP148 reference can be applied for testing and review purposes.  If you want to signal [support](#how-can-we-measure-whether-bip148-has-economic-majority-support), change your user agent comment to be "UASF-SegWit-BIP148", along with communicating with other Bitcoin users that you support BIP148.
+
+### What do you mean by "economic majority"?
+
+An "economic majority of users" is a majority of users that is weighted by wealth or economic activity, as opposed to a numeric majority that counts everyone equally. BIP148's success is dependent on economic majority [support](#how-can-we-measure-whether-bip148-has-economic-majority-support). This majority would consist of:
+
+* Bitcoin investors, or anyone who deliberately holds bitcoins instead of immediately selling them for fiat. In the event of a chain split, an investor will own coins on both sides of the split. They can sell the coins on the chain that they do not support in order to buy more coins on the chain that they do support. Doing this drives up the price on their favored chain, while driving the price on the other chain down. The more bitcoins an investor owns, the greater their contribution to the economic majority.
+
+* Bitcoin merchants, or anyone willing to accept bitcoins in exchange for goods, services, or other currencies. In the event of a chain split, a merchant can choose to accept as payment only coins from the chain that they support. By making goods available, the merchant increases the value of their favored chain. The greater the aggregate value of goods sold by the merchant, the greater their contribution to the economic majority.
+
+### How can we measure whether BIP148 has economic majority support?
+
+There are multiple metrics to measure whether a proposal has the support of an [economic majority](#what-do-you-mean-by-economic-majority). Some metrics are better than others.
+
+* [Counting nodes](#uasf-signaling) is a low-quality (but not irrelevant) metric. Mostly you can conclude that if there are very few nodes supporting a proposal, then there is a lack of support. Few nodes opposing a proposal would indicate a lack of opposition. Many nodes supporting or opposing doesn't necessarily mean much either way though.
+
+* Statements from Bitcoin businesses are a better, but still somewhat fuzzy metric. You can weigh statements by the size of the businesses making them. You can also assume a certain level of agreement from their customers.
+
+* Futures markets, such as the BCC/BCU tokens on Bitfinex, are probably the best way to measure support. The market would pay out in whichever coin type you had bet on, once the proposal goes into effect. This allows anyone who would want to buy or sell a particular coin after a split, to instead do so before the split occurs, thus establishing a price for each coin. In the case of BIP148, having a price above that of the legacy coin would mean that BIP148 will succeed.
 
 ---
 
