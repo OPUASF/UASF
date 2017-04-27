@@ -33,14 +33,17 @@ Link for reference: [luke.dashjr.org/programs/bitcoin/files/charts/software.html
 Company|Category|Support Type|ANN.|
  :--- | :--- | :--- | :---:
  [Abra](https://www.goabra.com) |  Worldwide payments | Support | [proof](https://twitter.com/billbarhydt/status/851855874855391232)
+ [Bitcoin Embassy.io](https://bitcoinembassy.ca/) || Support |[proof](https://twitter.com/francispouliot_/status/852554864144109569)
  [BitCoinReminder](https://bitcoinreminder.com/)  | Tool | Support | [proof](https://www.reddit.com/r/Bitcoin/comments/642n66/bitcoinremindercom_supports_bip148_and_a_fix/)
  [Bitfury](http://bitfury.com/) | Miner | Support | [proof](https://news.bitcoin.com/bitfury-mines-block-signaling-uasf-segwit/)
  [BitKong](https://bitkong.com/) | Casino | Support | [proof](https://bitkong.com/segwit.txt)
  [BitPay](https://bitpay.com) | Payment processor | Interest | [proof](https://cointelegraph.com/news/bitpay-ceo-supports-user-activated-soft-fork-hints-at-off-chain-expansion)
+ [Bitrated](https://twitter.com/bitrated/status/852414265134907392) | Identity & consumer protection | Support | [proof](https://twitter.com/bitrated/status/852414265134907392)
  [Bitrefill](https://www.bitrefill.com) |Exchange| Support | [proof](https://twitter.com/bitrefill/status/851818821946048512)
  [Bitvest](https://bitvest.io/) | |Support | [proof](https://bitvest.io/segwit)
  [Blockonomics](https://www.blockonomics.co) |Explorer| Support|  [proof](https://twitter.com/blockonomics_co/status/851770427529670658)
  [Bustabit](#) | Casino|Interest|[proof](https://www.reddit.com/r/Bitcoin/comments/63otrp/gregory_maxwell_major_asic_manufacturer_is/dfw02tg/)
+ [Bylls](https://bylls.com/) | Service | Support |[proof](https://twitter.com/francispouliot_/status/852554864144109569)
  [CoinGate](https://coingate.com) | Payment Processor | Support | [proof](https://blog.coingate.com/2017/04/coingate-supports-segwit-and-uasf/)
  [Coinkite](http://coinkite.com) | Hardware/Software | Support| [proof](https://twitter.com/coinkite/status/851822761794260992)
  [Coinomi](https://coinomi.com/) | Multi-currency Wallet | Support| [proof](https://twitter.com/CoinomiWallet/status/852130791362637825)
@@ -49,6 +52,7 @@ Company|Category|Support Type|ANN.|
  [Microsoft](http://microsoft.com)| Decentralized Identity dpt.|Support|[proof](https://twitter.com/csuwildcat/status/851832163792150528)
  [Prasos](https://prasos.fi) | Bitcoin broker | Support | [proof](https://twitter.com/prasosltd/status/852104011767566336)
  [Samourai Wallet](https://samouraiwallet.com/) | Wallet| Support| [proof](https://twitter.com/SamouraiWallet/status/851005717070917633)
+ [Satoshi Counter](https://satoshicounter.com/) | Broker | Support |[proof](https://twitter.com/francispouliot_/status/852554864144109569)
  [Satoshi Portal](http://satoshiportal.com) | Financial services | Support|[proof](https://twitter.com/francispouliot_/status/850474196635439105)
  [Stampery Inc.](https://stampery.com) | Timestamping| Support |[proof](https://twitter.com/StamperyCo/status/852097157951873025)
  [Trezor](https://trezor.io/) | Hardware Wallet | Ready | [proof](https://twitter.com/slushcz/status/851502735736418304)
@@ -150,6 +154,18 @@ This will depend on what type of wallet you use. In the case of a wallet using a
 ### Where do I download software that enforces BIP148?
 
 Successful User Activated Soft Forks require a strong consensus from the economy to be successful.  BIP148 also is subject to changes as it is reviewed, so some minor details may change before it is ready.  Until there is sufficient consensus, it is not advised to use any binaries that implement BIP148.  However, the BIP148 reference can be applied for testing and review purposes.  If you want to signal support, change your user agent comment to be "UASF-SegWit-BIP148", along with communicating with other Bitcoin users that you support BIP148.
+
+### What is BIP8?
+
+BIP8 is a modification to BIP9.  BIP9 was the deployment mechanism for soft forks in the past that relied on miners signalling 95% readiness for activation.  It was successfully used to activate BIP65 (OP_CHECKLOCKTIMEVERIFY) and BIP68/BIP112/BIP113 (CHECKSEQUENCEVERIFY/Median Time).  BIP9 allows for upgrades to the system whenever a supermajority of miners are ready to enforce the changes, allowing for faster upgrades than a UASF may allow.  Every 2016 blocks, if 95% of those blocks signalled readiness for the proposed change, the soft fork enforcement would become mandatory in 2016 blocks.  Each change is given a fixed timeframe to achieve this activation, such that any change that is not activated may have its bit reused.  Proposals that do not achieve activation expire at the end of their time period, but may be renewed if there is sufficient interest.
+
+BIP8 modifies BIP9 to automatically convert into a UASF at the end of its activation time.  This avoids the problem of a miner veto while still allowing miners to begin enforcing the rules sooner than a pure UASF would allow.  Once the final period completes after the timeout period, the rules become mandatory, regardless of signalling.
+
+### Can BIP8 be applied to SegWit?
+
+There was a proposal made by Shaolinfry to use BIP8 to deploy SegWit.  The proposal would set a new version bit for deployment after the current proposal would expire, and would lock-in in April 2018.  Miners would still be able to activate SegWit prior to the this date, but failure to activate would result in a mandatory lock-in.
+
+Unlike BIP148, this proposal would not require miners to signal version bits for SegWit or create SegWit blocks. The only requirement for miners is to not build on top of blocks that are invalid under the SegWit rules.
 
 ---
 
