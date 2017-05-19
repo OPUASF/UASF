@@ -101,8 +101,7 @@ Because BIP9 is time based, BIP148 needs to account for the possibility for some
 
 The best way to show support is to champion it through social media (Twitter, Facebook, etc...) and petition businesses and wallets to support it. Many users are also altering their node's user agent string to include BIP148.
 
-
-To signal #BIP148 on Linux on your node before binaries are released:
+To signal #BIP148 on Linux on your existing non-UASF node:
 
 `echo "uacomment=UASF-SegWit-BIP148" >> ~/.bitcoin/bitcoin.conf && bitcoin-cli stop && sleep 5 && bitcoind`
 
@@ -111,6 +110,8 @@ To signal #BIP148 on Windows, you can edit the shortcut for Bitcoin as follows:
 ![](img/windows148.png)
 
 _N.B. This will not enforce UASF on your node; it will only signal that you support it at this stage._
+
+To run a UASF release, built it from [source](https://github.com/UASF/bitcoin/releases) or [download a binary release](https://uasf.bitcoinreminder.com/) which should be [**verified**](https://www.reddit.com/r/Bitcoin/wiki/verifying_bitcoin_core) against [gitian signatures](https://github.com/UASF/gitian.sigs). If you have a non-UASF release, stop it and uninstall it, then install a UASF release. Please read the rest of this document for additional information.
 
 ### Can BIP148 be cancelled?
 
