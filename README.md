@@ -153,7 +153,25 @@ This will depend on what type of wallet you use. In the case of a wallet using a
 
 ### Where do I download software that enforces BIP148?
 
-Successful User Activated Soft Forks require a strong consensus from the economy to be successful.  BIP148 also is subject to changes as it is reviewed, so some minor details may change before it is ready.  Until there is sufficient consensus, it is not advised to use any binaries that implement BIP148.  However, the BIP148 reference can be applied for testing and review purposes.  If you want to signal support, change your user agent comment to be "UASF-SegWit-BIP148", along with communicating with other Bitcoin users that you support BIP148.
+Successful User Activated Soft Forks require a strong consensus from the economy to be successful.  BIP148 also is subject to changes as it is reviewed, so some minor details may change before it is ready. Please check regulary to be up to date with the latest version.
+
+You can find software here - be sure to [verify the signtures](https://www.reddit.com/r/Bitcoin/comments/6bkk3c/by_request_how_to_signal_uasf_a_guide_for_dummies/):
+
+Operating system | Link | Signatures
+--------- | --------- | --------- 
+win64-setup-unsigned.exe | https://uasf.bitcoinreminder.com/bitcoin-0.14.1-bip148_segwit0.3-win64-setup-unsigned.exe | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
+win64.zip | https://uasf.bitcoinreminder.com/bitcoin-0.14.1-bip148_segwit0.3-win64.zip | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
+win32-setup-unsigned.exe | https://uasf.bitcoinreminder.com/bitcoin-0.14.1-bip148_segwit0.3-win32-setup-unsigned.exe | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
+win32.zip | https://uasf.bitcoinreminder.com/bitcoin-0.14.1-bip148_segwit0.3-win32.zip | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
+Ubuntu PPA | https://launchpad.net/~luke-jr/+archive/ubuntu/bitcoin-core-bip148-unofficial-builds
+osx64.tar.gz | https://uasf.bitcoinreminder.com/bitcoin-0.14.1-bip148_segwit0.3-osx64.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-osx-unsigned)
+osx-unsigned.dmg | https://uasf.bitcoinreminder.com/bitcoin-0.14.1-bip148_segwit0.3-osx-unsigned.dmg | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-osx-unsigned)
+x86_64-linux-gnu.tar.gz | https://uasf.bitcoinreminder.com/bitcoin-0.14.1-bip148_segwit0.3-x86_64-linux-gnu.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
+i686-pc-linux-gnu.tar.gz | https://uasf.bitcoinreminder.com/bitcoin-0.14.1-bip148_segwit0.3-i686-pc-linux-gnu.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
+aarch64-linux-gnu.tar.gz | https://uasf.bitcoinreminder.com/bitcoin-0.14.1-bip148_segwit0.3-aarch64-linux-gnu.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
+arm-linux-gnueabihf.tar.gz | https://uasf.bitcoinreminder.com/bitcoin-0.14.1-bip148_segwit0.3-arm-linux-gnueabihf.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
+Source Code | https://uasf.bitcoinreminder.com/bitcoin-0.14.1-bip148_segwit0.3.tar.gz
+
 
 ### What is BIP8?
 
