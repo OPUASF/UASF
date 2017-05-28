@@ -213,17 +213,17 @@ You can find software here - be sure to [verify the signtures](https://www.reddi
 
 Operating system | Signatures
 --------- | --------- 
-[win64-setup-unsigned.exe](binaries/bitcoin-0.14.1-bip148_segwit0.3-win64-setup-unsigned.exe) | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
-[win64.zip](binaries/bitcoin-0.14.1-bip148_segwit0.3-win64.zip) | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
-[win32-setup-unsigned.exe](binaries/bitcoin-0.14.1-bip148_segwit0.3-win32-setup-unsigned.exe) | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
-[win32.zip](binaries/bitcoin-0.14.1-bip148_segwit0.3-win32.zip) | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
-[Ubuntu](https://launchpad.net/~luke-jr/+archive/ubuntu/bitcoin-core-bip148-unofficial-builds) | PPA provided by Luke-Jr
-[osx64.tar.gz](binaries/bitcoin-0.14.1-bip148_segwit0.3-osx64.tar.gz) | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-osx-unsigned)
-[osx-unsigned.dmg](binaries/bitcoin-0.14.1-bip148_segwit0.3-osx-unsigned.dmg) | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-osx-unsigned)
-[x86_64-linux-gnu.tar.gz](binaries/bitcoin-0.14.1-bip148_segwit0.3-x86_64-linux-gnu.tar.gz) | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
-[i686-pc-linux-gnu.tar.gz](binaries/bitcoin-0.14.1-bip148_segwit0.3-i686-pc-linux-gnu.tar.gz) | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
-[aarch64-linux-gnu.tar.gz](binaries/bitcoin-0.14.1-bip148_segwit0.3-aarch64-linux-gnu.tar.gz) | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
-[arm-linux-gnueabihf.tar.gz](binaries/bitcoin-0.14.1-bip148_segwit0.3-arm-linux-gnueabihf.tar.gz) | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
+win64-setup-unsigned.exe | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
+win64.zip | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
+win32-setup-unsigned.exe | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
+win32.zip | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-win-unsigned)
+Ubuntu | PPA provided by Luke-Jr
+osx64.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-osx-unsigned)
+osx-unsigned.dmg | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-osx-unsigned)
+x86_64-linux-gnu.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
+i686-pc-linux-gnu.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
+aarch64-linux-gnu.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
+arm-linux-gnueabihf.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
 [Source Code](binaries/bitcoin-0.14.1-bip148_segwit0.3.tar.gz) | 
 
 
