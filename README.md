@@ -57,7 +57,7 @@ Company|Category|Support Type|ANN.|
  [LightningASIC](http://lightningasic.com/)| Miner |Support|[proof](https://twitter.com/lightningasic/status/865676297141313536)
  [Microsoft](http://microsoft.com)| Decentralized Identity dpt. |Support|[proof](https://twitter.com/csuwildcat/status/851832163792150528)
  [Mycelium](http://mycelium.com)| Wallet | Ready| [proof](https://twitter.com/MyceliumCom/status/866295946698772480)
-  [MojBitcoin](http://mojbitcoin.sk/)| ATM Operator | Support| [proof](https://twitter.com/MojBitcoin/status/866308792568479745)
+ [MojBitcoin](http://mojbitcoin.sk/)| ATM Operator | Support| [proof](https://twitter.com/MojBitcoin/status/866308792568479745)
  [Prasos](https://prasos.fi) | Bitcoin broker | Support | [proof](https://twitter.com/prasosltd/status/852104011767566336)
  [Samourai Wallet](https://samouraiwallet.com/) | Wallet| Support| [proof](https://twitter.com/SamouraiWallet/status/851005717070917633)
  [Satoshi Counter](https://satoshicounter.com/) | Broker | Support |[proof](https://twitter.com/francispouliot_/status/852554864144109569)
