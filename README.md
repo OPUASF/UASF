@@ -52,12 +52,13 @@ Company|Category|Support Type|ANN.|
  [Coinkite](http://coinkite.com) | Hardware/Software | Support| [proof](https://twitter.com/coinkite/status/851822761794260992)
  [Coinomi](https://coinomi.com/) | Multi-currency Wallet | Support| [proof](https://twitter.com/CoinomiWallet/status/852130791362637825)
  [Darknet Heroes League](https://www.deepdotweb.com/marketplace-directory/listing/darknet-heroes-league/) | Dark Net Marketplace | Support | [proof](https://www.reddit.com/r/Bitcoin/comments/6cna2s/notice_the_debate_is_now_only_about_the_way_of/dhwez9b/)
- [Electrum](https://electrum.org/) | Wallet | Ready | [proof](https://twitter.com/ElectrumWallet/status/852444300864618496)
+ [Electrum](https://electrum.org/) | Wallet | Support | [proof](https://twitter.com/electrumwallet/status/868845430947401729)
  [Freedom Node](https://freedomnode.com/) | Education | Support| [proof](https://freedomnode.com/bitcoin-core-support.txt)
  [JoinMarket](https://github.com/JoinMarket-Org/joinmarket) | Mixer | Support| [proof](https://twitter.com/joinmarket/status/851177740900368385)
  [LightningASIC](http://lightningasic.com/)| Miner |Support|[proof](https://twitter.com/lightningasic/status/865676297141313536)
  [Microsoft](http://microsoft.com)| Decentralized Identity dpt. |Support|[proof](https://twitter.com/csuwildcat/status/851832163792150528)
- [MojBitcoin](http://mojbitcoin.sk/)| ATM Operator |Support|[proof](https://twitter.com/MojBitcoin/status/866308792568479745)
+ [MojBitcoin](http://mojbitcoin.sk/)| ATM Operator | Support| [proof](https://twitter.com/MojBitcoin/status/866308792568479745)
+ [Mycelium](http://mycelium.com)| Wallet | Ready| [proof](https://twitter.com/MyceliumCom/status/866295946698772480)
  [Prasos](https://prasos.fi) | Bitcoin broker | Support | [proof](https://twitter.com/prasosltd/status/852104011767566336)
  [Samourai Wallet](https://samouraiwallet.com/) | Wallet| Support| [proof](https://twitter.com/SamouraiWallet/status/851005717070917633)
  [Satoshi Counter](https://satoshicounter.com/) | Broker | Support |[proof](https://twitter.com/francispouliot_/status/852554864144109569)
@@ -107,10 +108,12 @@ Because BIP9 is time based, BIP148 needs to account for the possibility for some
 
 ### How can we show support for BIP148?
 
-The best way to show support is to champion it through social media (Twitter, Facebook, etc...) and petition businesses and wallets to support it. Many users are also altering their node's user agent string to include BIP148.
+The best way to show support is to champion it through social media (Twitter, Facebook, etc...) and petition businesses and wallets to support it. Many users have already installed (or upgraded to) Bitcoin Core UASF BIP148 and this is best option for those who use own nodes to send and receive bitcoin. 
+
+Users who cannot upgrade existing Bitcoin Core can change their node's user agent string to include BIP148, but such nodes will have to be upgraded to UASF BIP148 in order to be able to function on the BIP148 chain after August 1.
 
 
-To signal #BIP148 on Linux on your node before binaries are released:
+To signal #BIP148 on Linux on your node without a software change:
 
 `echo "uacomment=UASF-SegWit-BIP148" >> ~/.bitcoin/bitcoin.conf && bitcoin-cli stop && sleep 5 && bitcoind`
 
@@ -118,9 +121,11 @@ To signal #BIP148 on Windows, you can edit the shortcut for Bitcoin as follows:
 
 ![](img/windows148.png)
 
-_N.B. This will not enforce UASF on your node; it will only signal that you support it at this stage._
+_N.B. This will not enforce UASF on your node; it will only signal that you support it at this stage. If you intend to use BIP148 to send and receive bitcoin after BIP148 activation, make sure to install Bitcoin Core UASF BIP148 prior to August 1, 2017._
 
-### How can I compile BIP148 myself?
+### How can I compile BIP148 myself or download signed binaries?
+
+Signed binaries can be downloaded [here](https://github.com/UASF/bitcoin/releases). To build from source, follow the instructions below.
 
 First, install all necessary dependencies which are mentioned in the official Bitcoin build instructions:
 
