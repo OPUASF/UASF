@@ -47,6 +47,7 @@ Company|Category|Support Type|ANN.|
  [Blockonomics](https://www.blockonomics.co) |Explorer| Support|  [proof](https://twitter.com/blockonomics_co/status/851770427529670658)
  [Bustabit](https://www.bustabit.com/) | Casino|Interest|[proof](https://www.reddit.com/r/Bitcoin/comments/63otrp/gregory_maxwell_major_asic_manufacturer_is/dfw02tg/)
  [Bylls](https://bylls.com/) | Service | Support |[proof](https://twitter.com/francispouliot_/status/852554864144109569)
+ [Ciphrex](https://ciphrex.com) | Wallet/Development Stack | Support | [proof](https://medium.com/@elombrozo/why-i-support-bip148-4b4c0a9feb4d)
  [CoinGate](https://coingate.com) | Payment Processor | Support | [proof](https://blog.coingate.com/2017/04/coingate-supports-segwit-and-uasf/)
  [Coinkite](http://coinkite.com) | Hardware/Software | Support| [proof](https://twitter.com/coinkite/status/851822761794260992)
  [Coinomi](https://coinomi.com/) | Multi-currency Wallet | Support| [proof](https://twitter.com/CoinomiWallet/status/852130791362637825)
