@@ -33,6 +33,7 @@ Link for reference: [luke.dashjr.org/programs/bitcoin/files/charts/segwit.html](
 Company|Category|Support Type|ANN.|
  :--- | :--- | :--- | :---:
  [Abra](https://www.goabra.com) |  Worldwide payments | Support | [proof](https://twitter.com/billbarhydt/status/851855874855391232)
+ [Altana](https://play.google.com/store/apps/details?id=it.inbitcoin.altana) | Wallet | Support | [proof](https://twitter.com/inbitcoin/status/869489501059649536)
  [Bitcoin Embassy](https://bitcoinembassy.ca/) | Education | Support |[proof](https://twitter.com/francispouliot_/status/852554864144109569)
  [Bitcoin India](https://pool.bitcoin-india.org/) | Miner |Support | [proof](https://blockchain.info/tx/fae1c99536a93abd8e2ad84bd9563e3170343f21a0177c0232171756ed285edc)
  [BitCoinReminder](https://bitcoinreminder.com/)  | Tool | Support | [proof](https://www.reddit.com/r/Bitcoin/comments/642n66/bitcoinremindercom_supports_bip148_and_a_fix/)
@@ -54,6 +55,7 @@ Company|Category|Support Type|ANN.|
  [Darknet Heroes League](https://www.deepdotweb.com/marketplace-directory/listing/darknet-heroes-league/) | Dark Net Marketplace | Support | [proof](https://www.reddit.com/r/Bitcoin/comments/6cna2s/notice_the_debate_is_now_only_about_the_way_of/dhwez9b/)
  [Electrum](https://electrum.org/) | Wallet | Support | [proof](https://twitter.com/electrumwallet/status/868845430947401729)
  [Freedom Node](https://freedomnode.com/) | Education | Support| [proof](https://freedomnode.com/bitcoin-core-support.txt)
+ [inbitcoin](https://inbitcoin.it/) | Payment Processor | Ready | [proof](https://twitter.com/inbitcoin/status/869518776735289345)
  [JoinMarket](https://github.com/JoinMarket-Org/joinmarket) | Mixer | Support| [proof](https://twitter.com/joinmarket/status/851177740900368385)
  [LightningASIC](http://lightningasic.com/)| Miner |Support|[proof](https://twitter.com/lightningasic/status/865676297141313536)
  [Microsoft](http://microsoft.com)| Decentralized Identity dpt. |Support|[proof](https://twitter.com/csuwildcat/status/851832163792150528)
