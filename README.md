@@ -1,6 +1,8 @@
 
 ![](img/uasf-header.png)
 
+[![简体中文](https://github.com/stevenrskelton/flag-icon/blob/master/png/16/country-4x3/cn.png "简体中文")](http://www.microsofttranslator.com/bv.aspx?&lo=TP&from=&to=zh-CHS&a=http%3A%2F%2Fwww.uasf.co%2F) | [![François](https://github.com/stevenrskelton/flag-icon/blob/master/png/16/country-4x3/fr.png "François")](http://www.microsofttranslator.com/bv.aspx?from=&to=fr&a=http%3A%2F%2Fwww.uasf.co%2F) | [![Deutsch](https://github.com/stevenrskelton/flag-icon/blob/master/png/16/country-4x3/de.png "Deutsch")](http://www.microsofttranslator.com/bv.aspx?from=&to=de&a=http%3A%2F%2Fwww.uasf.co%2F) | [![日本語](https://github.com/stevenrskelton/flag-icon/blob/master/png/16/country-4x3/jp.png "日本語")](http://www.microsofttranslator.com/bv.aspx?from=&to=ja&a=http%3A%2F%2Fwww.uasf.co%2F) | [![ру́сский](https://github.com/stevenrskelton/flag-icon/blob/master/png/16/country-4x3/ru.png "ру́сский")](http://www.microsofttranslator.com/bv.aspx?from=&to=ru&a=http%3A%2F%2Fwww.uasf.co%2F) | [![español](https://github.com/stevenrskelton/flag-icon/blob/master/png/16/country-4x3/es.png "español")](http://www.microsofttranslator.com/bv.aspx?from=&to=es&a=http%3A%2F%2Fwww.uasf.co%2F) 
+
 # BIP148 & UASF FAQ
 
 ### What is a UASF?
