@@ -78,6 +78,7 @@ Company|Category|Support Type|ANN.|
  [Vaultoro](https://www.vaultoro.com) | Bitcoin & gold exchange | Support | [proof](https://twitter.com/Vaultoro/status/851370469018284034)
  [Walltime](https://walltime.info/) | Exchange | Support |[proof](https://pastebin.com/raw/FeNHqySX)
  [Yogh](http://yogh.io) | Explorer| Support |[proof](http://srv1.yogh.io/#json:getnetworkinfo)
+ [Simple Bitcoin Wallet](https://btcontract.com/) | Wallet| Support |[proof](https://btcontract.com/#trusted-node)
  
  *[Add your business here by creating a pull request (must include public announcement link)](https://github.com/OPUASF/UASF/pulls)*
 
