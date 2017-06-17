@@ -135,7 +135,7 @@ _N.B. This will not enforce UASF on your node; it will only signal that you supp
 
 ### How can I compile BIP148 myself or download signed binaries?
 
-Signed binaries can be downloaded [here](https://github.com/UASF/bitcoin/releases). To build from source, follow the instructions below.
+Signed binaries can be downloaded [here](https://github.com/UASF/bitcoin/releases/tag/v0.14.1-uasfsegwit0.3). To build from source, follow the instructions below.
 
 First, install all necessary dependencies which are mentioned in the official Bitcoin build instructions:
 
