@@ -74,6 +74,7 @@ Company|Category|Support Type|ANN.|
  [Satoshi Counter](https://satoshicounter.com/) | Broker | Support |[proof](https://twitter.com/francispouliot_/status/852554864144109569)
  [Satoshi Portal](http://satoshiportal.com) | Financial services | Support|[proof](https://twitter.com/francispouliot_/status/850474196635439105)
  [Stampery Inc.](https://stampery.com) | Timestamping| Support |[proof](https://twitter.com/StamperyCo/status/852097157951873025)
+ [Simple Bitcoin Wallet](https://btcontract.com/) | Wallet| Support |[proof](https://btcontract.com/#trusted-node)
  [Trezor](https://trezor.io/) | Hardware Wallet | Ready | [proof](https://twitter.com/slushcz/status/851502735736418304)
  [Vaultoro](https://www.vaultoro.com) | Bitcoin & gold exchange | Support | [proof](https://twitter.com/Vaultoro/status/851370469018284034)
  [Walltime](https://walltime.info/) | Exchange | Support |[proof](https://pastebin.com/raw/FeNHqySX)
