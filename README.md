@@ -186,7 +186,7 @@ Feel free to join, we are always happy about people which are interested and wou
 
 ### Can BIP148 be cancelled?
 
-Yes. In the event that the economic majority does not support BIP148, users should remove software that enforces BIP148. A flag day activation for SegWit would be the next logical steps and require coordination of the community, most likely towards the end of 2018.
+No. BIP148 will occur as long as any users support it. Many users have committed to running BIP148 regardless of consequences, therefore it cannot be cancelled.
 
 ### Does node count determine activation?
 
