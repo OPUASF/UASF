@@ -41,6 +41,7 @@ Company|Category|Support Type|ANN.|
  :--- | :--- | :--- | :---:
  [Abra](https://www.goabra.com) |  Worldwide payments | Support | [proof](https://twitter.com/billbarhydt/status/851855874855391232)
  [Altana](https://play.google.com/store/apps/details?id=it.inbitcoin.altana) | Wallet | Support | [proof](https://twitter.com/inbitcoin/status/869489501059649536)
+ [Azteco](https://azte.co/) | Consumer Bitcoin | Support | [proof](https://twitter.com/Azteco_/status/881834834561306625)
  [Bitcoin Embassy](https://bitcoinembassy.ca/) | Education | Support |[proof](https://twitter.com/francispouliot_/status/852554864144109569)
  [Bitcoin India](https://pool.bitcoin-india.org/) | Miner |Support | [proof](https://blockchain.info/tx/fae1c99536a93abd8e2ad84bd9563e3170343f21a0177c0232171756ed285edc)
  [BitCoinReminder](https://bitcoinreminder.com/)  | Tool | Support | [proof](https://www.reddit.com/r/Bitcoin/comments/642n66/bitcoinremindercom_supports_bip148_and_a_fix/)
