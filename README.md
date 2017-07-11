@@ -247,6 +247,10 @@ aarch64-linux-gnu.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree
 arm-linux-gnueabihf.tar.gz | [Signatures](https://github.com/UASF/gitian.sigs/tree/master/0.14.1-uasfsegwit0.3-linux)
 [Source Code](binaries/bitcoin-0.14.1-bip148_segwit0.3.tar.gz) | 
 
+### Running a Full Bitcoin Node with BIP148 on a Raspberry PI ###
+
+A [Raspberry PI](https://en.wikipedia.org/wiki/Raspberry_Pi) is a cheap way to run your own full node. Here are  
+[instructions how to install a Full Bitcoin Node with BIP148 on a Raspberry PI](https://www.renewable-energy-now.org/2017/07/raspberry-pi-bitcoin-full-node-english/)
 
 ### What is BIP8?
 
