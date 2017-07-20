@@ -125,19 +125,6 @@ Because BIP9 is time based, BIP148 needs to account for the possibility for some
 
 The best way to show support is to champion it through social media (Twitter, Facebook, etc...) and petition businesses and wallets to support it. Many users have already installed (or upgraded to) Bitcoin Core UASF BIP148 and this is best option for those who use own nodes to send and receive bitcoin. 
 
-Users who cannot upgrade existing Bitcoin Core can change their node's user agent string to include BIP148, but such nodes will have to be upgraded to UASF BIP148 in order to be able to function on the BIP148 chain after August 1.
-
-
-To signal #BIP148 on Linux on your node without a software change:
-
-`echo "uacomment=UASF-SegWit-BIP148" >> ~/.bitcoin/bitcoin.conf && bitcoin-cli stop && sleep 5 && bitcoind`
-
-To signal #BIP148 on Windows, you can edit the shortcut for Bitcoin as follows:
-
-![](img/windows148.png)
-
-_N.B. This will not enforce UASF on your node; it will only signal that you support it at this stage. If you intend to use BIP148 to send and receive bitcoin after BIP148 activation, make sure to install Bitcoin Core UASF BIP148 prior to August 1, 2017._
-
 ### How can I compile BIP148 myself or download signed binaries?
 
 Signed binaries can be downloaded [here](https://github.com/UASF/bitcoin/releases). To build from source, follow the instructions below.
