@@ -127,6 +127,10 @@ Because BIP9 is time based, BIP148 needs to account for the possibility for some
 
 The best way to show support is to champion it through social media (Twitter, Facebook, etc...) and petition businesses and wallets to support it. Many users have already installed (or upgraded to) Bitcoin Core UASF BIP148 and this is best option for those who use own nodes to send and receive bitcoin. 
 
+### Does it still make sense to signal support via uacomment?
+
+**Setting UACOMMENT is not enough to follow the BIP148 chain and it's absolutely necessary to switch to a BIP148 enforcing node if you want to stupport BIP148! Otherwise you could find yourself following the wrong chain - which is at risk of getting orphaned and also won’t support the activation of SegWit! See below for BIP148 enforcing binaries or how to compile it yourself.**
+
 ### How can I compile BIP148 myself or download signed binaries?
 
 Signed binaries can be downloaded [here](https://github.com/UASF/bitcoin/releases). To build from source, follow the instructions below.
