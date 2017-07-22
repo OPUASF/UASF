@@ -65,6 +65,7 @@ Company|Category|Support Type|ANN.|
  [Échange de Montréal](https://www.echangedemontreal.com/) | Exchange | Support| [proof](https://twitter.com/echangedemtl/status/875781093261271040)
  [Electrum](https://electrum.org/) | Wallet | Support | [proof](https://twitter.com/electrumwallet/status/868845430947401729)
  [Freedom Node](https://freedomnode.com/) | Education | Support| [proof](https://freedomnode.com/bitcoin-core-support.txt)
+ [HolyTransaction](https://holytransaction.com/) | Wallet/Crypto-to-Crypto Exchange | Support | [proof](https://twitter.com/holytransaction/status/888414265715163136)
  [inbitcoin](https://inbitcoin.it/) | Payment Processor | Ready | [proof](https://twitter.com/inbitcoin/status/869518776735289345)
  [JoinMarket](https://github.com/JoinMarket-Org/joinmarket) | Mixer | Support| [proof](https://twitter.com/joinmarket/status/851177740900368385)
  [LightningASIC](http://lightningasic.com/)| Miner |Support|[proof](https://twitter.com/lightningasic/status/865676297141313536)
