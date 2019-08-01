@@ -1,4 +1,4 @@
-XXX Moved to [uasf.work](uasf.work) and https://github.com/nvk/UASF
+XXX Moved to [uasf.work]
 
 ---
 
