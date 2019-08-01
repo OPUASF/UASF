@@ -1,4 +1,4 @@
-XXX Moved to [uasf.work]
+XXX Moved to [uasf.work](uasf.work)
 
 ---
 
