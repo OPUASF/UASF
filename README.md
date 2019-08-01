@@ -1,3 +1,7 @@
+XXX Moved to uasf.work and https://github.com/nvk/UASF
+
+---
+
 
 ![](img/uasf-header.png)
 
