@@ -1,6 +1,3 @@
-XXX Moved to [uasf.work](uasf.work)
-
----
 
 
 ![](img/uasf-header.png)
