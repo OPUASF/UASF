@@ -1,6 +1,5 @@
 
 
-![](img/uasf-header.png)
 
 ![](img/DGIluTMVYAAOh-L.jpg)
 
