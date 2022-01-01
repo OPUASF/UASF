@@ -1,3 +1,5 @@
+<div id="coinkite-banner" style="height: 35px; background-color: black; position: fixed; top: 0; left: 0; right: 0; z-index: 5;"></div>
+
 **UASF.org** *maintained by [@NVK](https://twitter.com/nvk), help [improve](https://github.com/OPUASF/UASF). domain donated by [Coinkite](https://coinkite.com)*
 
 ----
@@ -265,3 +267,4 @@ Unlike BIP148, this proposal would not require miners to signal version bits for
 ---
 
 *Contribute to this document here [github.com/OPUASF/UASF](https://github.com/OPUASF/UASF)*
+<script src="//coinkite.com/static/banner/banner.js"></script>
